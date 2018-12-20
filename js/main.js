@@ -3,6 +3,9 @@
 	'use strict';
 
 
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip();
+	});
 
 	var isMobile = {
 		Android: function() {
